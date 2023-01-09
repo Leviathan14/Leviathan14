@@ -1,0 +1,31 @@
+- type: entity
+  parent: Poweredlight
+  id: LeviathanPoweredlight
+  suffix: Leviathan
+  components:
+  - type: PoweredLight
+    hasLampOnSpawn: LeviathanLightTube
+    damage:
+      types:
+        Heat: 5
+  - type: PointLight
+    radius: 4.5
+    energy: 0.5
+    softness: 3
+    offset: "0, -0.5"
+
+- type: entity
+  parent: PoweredSmallLight
+  id: LeviathanPoweredSmallLight
+  suffix: Leviathan
+  components:
+  - type: PoweredLight
+    hasLampOnSpawn: LeviathanLightBulb
+    damage:
+      types:
+        Heat: 5
+  - type: PointLight
+    radius: 2.5
+    energy: 0.3
+    softness: 3
+    offset: "0, -0.5"
