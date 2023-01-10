@@ -1,0 +1,15 @@
+- type: entity
+  parent: ClothingHandsGlovesColorBlack
+  id: LeviathanClothingHandsGlovesBlack
+  description: Standard issue hand coverings, though they barely keep you warm.
+  components:
+  - type: Sprite
+    sprite: _Leviathan/Clothing/Hands/lev_black.rsi
+  - type: Clothing
+    sprite: _Leviathan/Clothing/Hands/lev_black.rsi
+  - type: GloveHeatResistance
+    heatResistance: 1400
+  - type: Fiber
+    fiberMaterial: fibers-synthetic
+    fiberColor: fibers-black
+  - type: FingerprintMask

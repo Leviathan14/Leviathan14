@@ -1,0 +1,10 @@
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: LeviathanClothingUniformLevStandard
+  name: Leviathan standard uniform
+  description: The plain work uniform of the Leviathan shipping company, emblazoned with the corporate logo on the back. Standard wear for any employee.
+  components:
+  - type: Sprite
+    sprite: _Leviathan/Clothing/Uniforms/lev_standard.rsi
+  - type: Clothing
+    sprite: _Leviathan/Clothing/Uniforms/lev_standard.rsi
