@@ -1,0 +1,11 @@
+- type: startingGear
+  id: LeviathanStandardGear
+  equipment:
+    jumpsuit: LeviathanClothingUniformLevStandard
+    back: ClothingBackpackFilled #make a new one with custom equipment
+    shoes: LeviathanClothingShoesLevWorkboots
+    gloves: LeviathanClothingHandsGlovesBlack
+    id: LeviathanIDCard
+  innerclothingskirt: LeviathanClothingUniformLevStandard
+  satchel: ClothingBackpackFilled
+  duffelbag: ClothingBackpackFilled

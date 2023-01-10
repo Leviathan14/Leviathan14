@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: LeviathanClothingShoesLevWorkboots
+  name: workboots
+  description: Sturdy leather workboots, though they're worn so thin with ages you can feel the ground as you walk.
+  components:
+  - type: Sprite
+    sprite: _Leviathan/Clothing/Shoes/lev_workboots.rsi
+  - type: Clothing
+    sprite: _Leviathan/Clothing/Shoes/lev_workboots.rsi
