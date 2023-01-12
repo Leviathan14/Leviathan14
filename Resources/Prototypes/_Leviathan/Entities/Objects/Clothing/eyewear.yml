@@ -1,0 +1,12 @@
+- type: entity
+  parent: ClothingEyesBase
+  id: LeviathanClothingEyesGoggles
+  name: goggles
+  description: Heavy-duty eye wear. You wouldn't want to go blind, would you?
+  components:
+  - type: Sprite
+    sprite: _Leviathan/Clothing/Eyes/goggles.rsi
+  - type: Clothing
+    sprite: _Leviathan/Clothing/Eyes/goggles.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
